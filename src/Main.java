@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Bag Fix");
         TicTacToe board = new TicTacToe();
         board.getField();
         System.out.println(board.makeMove(1,1));
