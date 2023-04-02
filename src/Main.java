@@ -26,7 +26,6 @@ public class Main {
         System.out.println(board.makeMove(3,3));
         System.out.println(board.makeMove(1, 1));
         System.out.println(board.makeMove(2,1));
-        System.out.println(board.makeMove(3,3));
         board.getField();
         board.checkGame();
     }
