@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Bag Fix");
         TicTacToe board = new TicTacToe();
         board.getField();
         System.out.println(board.makeMove(1,1));
@@ -26,7 +27,6 @@ public class Main {
         System.out.println(board.makeMove(3,3));
         System.out.println(board.makeMove(1, 1));
         System.out.println(board.makeMove(2,1));
-        System.out.println(board.makeMove(3,3));
         board.getField();
         board.checkGame();
     }
